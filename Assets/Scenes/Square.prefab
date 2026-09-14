@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7415551388819994538}
   - component: {fileID: -3648460752856216820}
   - component: {fileID: -7930526250656420711}
-  - component: {fileID: 8906147591713657586}
+  - component: {fileID: 1177306416854990132}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -167,7 +167,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8906147591713657586
+--- !u!114 &1177306416854990132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,3 +179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9613a17fcdac5446bfced06a3539d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WASD
+  desired: {x: 0, y: 0}
+  movedir: {x: 1, y: 0}
+  smoothness: 0.0025
+  speed: 5
+  rb: {fileID: 0}
+  col: {fileID: 0}
