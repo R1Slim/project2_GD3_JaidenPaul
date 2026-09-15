@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -3648460752856216820}
   - component: {fileID: -7930526250656420711}
   - component: {fileID: 1177306416854990132}
+  - component: {fileID: -8214116759342822823}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -166,7 +167,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1177306416854990132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +186,24 @@ MonoBehaviour:
   speed: 5
   rb: {fileID: 0}
   col: {fileID: 0}
+--- !u!114 &-8214116759342822823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261160828022427016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380b4097bc900bf42a40bb0ab1012d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RayCast
+  player: {fileID: 6413186378813875227}
+  colcheckDistance: 2
+  LightLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  istouchingblockright: 0
+  istouchingblockleft: 0
+  rightlight: {fileID: 0}
+  RB: {fileID: -7930526250656420711}
